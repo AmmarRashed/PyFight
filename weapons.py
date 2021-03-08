@@ -36,12 +36,16 @@ class Weapon:
 
 class Sword(Weapon):
     hit_chance_scalar = 2
+    damage_min = 15
+    damage_max = 30
     symbol = "🗡"
 
 
 class Bow(Weapon):
     hit_chance_scalar = 0.75
     dodge_rate = 0.25
+    damage_min = 20
+    damage_max = 40
     symbol = "🏹"
 
 
